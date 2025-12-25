@@ -1,89 +1,62 @@
-# A Next.js 15 Blog using Server Components - Backed by Wisp CMS<!-- omit in toc -->
+# Astro Starter Kit: Blog
 
-[![Demo Travel Blog on Next.js 15](https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/clvlugru90000o4g8ahxp069s/32432ccf-57a8-4992-8c51-e5a47e110018.png/public "Demo Travel Blog on Next.js 15")](https://nextjs-blog-cms-wisp.vercel.app/)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FWisp-CMS%2Fnextjs-blog-cms-wisp&env=NEXT_PUBLIC_BLOG_ID&envDescription=Blog%20ID%20obtained%20from%20the%20Setup%20Page%20on%20Wisp%20CMS&demo-title=Demo%20Travel%20Blog&demo-description=Demo%20travel%20blog%20using%20Nextjs%2015%20Server%20Component&demo-url=https%3A%2F%2Fnextjs-blog-cms-wisp.vercel.app%2F&demo-image=https%3A%2F%2Fimagedelivery.net%2FlLmNeOP7HXG0OqaG97wimw%2Fclvlugru90000o4g8ahxp069s%2F32432ccf-57a8-4992-8c51-e5a47e110018.png%2Fpublic)
-
-**Featured Links**
-
-- [Demo Blog](https://blog-demo.wisp.blog/)
-- [Feature Walkthrough](https://youtu.be/7wVYAGhDmdY)
-- [Editing Experience](https://youtu.be/uSKO8J38T98)
-- [Documentation](https://www.wisp.blog/docs/next-js-blog-starter-kit/overview)
-- [Video Tutorial](https://www.wisp.blog/docs/next-js-blog-starter-kit/running-blog)
-
-This is a [Next.js](https://nextjs.org/docs/getting-started/installation), [Tailwind CSS](https://tailwindcss.com/), [Shadcn](https://ui.shadcn.com/) blogging starter template. This version is using Next.js 15 App Router with [React Server Components](https://nextjs.org/docs/getting-started/react-essentials#server-components) and uses [Wisp](https://wisp.blog/?utm_source=github&utm_medium=web&utm_campaign=nextjs-blog-cms-wisp) for publishing blog posts.
-
-Probably the most feature-rich Next.js blog template out there that is easily configurable and customizable. It's perfect as an upgrade from blogs using Jekyll, Hugo, Gatsby, Contentlayer, or ContentCollections.
-
-## About Wisp
-
-Wisp is a modern CMS for adding blogs to websites. It features an intuitive, medium-like editorial experience so that you can focus on writing instead of getting distracted by markdown.
-
-## Features
-
-- Beautiful blog starter kit with server rendering using Next.js 15 Server Components
-- Responsive layout for mobile devices
-- Filter blog posts by tags
-- About page
-- Light & dark mode
-- Automatic hierarchical sitemap generation
-- Automatic Open Graph image generation
-- Automatic [Related Posts suggestions](https://www.wisp.blog/blog/suggesting-related-blog-post-with-ai-content-recommendation)
-- RSS Feed
-
-## Technologies
-
-- [Next.js 15](https://nextjs.org/) using App Router & TypeScript
-- [Wisp](https://wisp.blog/?utm_source=github&utm_medium=web&utm_campaign=nextjs-blog-cms-wisp) to manage blog posts
-- [Tailwind CSS](https://tailwindcss.com/) for CSS framework
-- [Shadcn UI](https://ui.shadcn.com/) for UI components
-- [ESLint](https://eslint.org/) for static analysis
-- [TypeScript](https://www.typescriptlang.org/) for type safety
-- Font optimization with [next/font](https://nextjs.org/docs/app/api-reference/components/font)
-
-## Step-by-step Video Tutorial
-
-We've now included a 3-part video tutorial to help you run this blog on your computer:
-
-![3-part Video Tutorial to Launch Nextjs Blog](https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/cluqyx1rl0000l5ds3f0vkfer/2a92b7b6-9b11-4e41-8719-bad7be99b912.png/public "3-part Video Tutorial to Launch Nextjs Blog")
-
-- [Part 1: Running the Next JS blog (15 min)](https://www.wisp.blog/docs/next-js-blog-starter-kit/running-blog?utm_source=github&utm_medium=web&utm_campaign=nextjs-blog-cms-wisp)
-- [Part 2: Personalizing Your Next.js Blog (15 min)](https://www.wisp.blog/docs/next-js-blog-starter-kit/personalizing-blog?utm_source=github&utm_medium=web&utm_campaign=nextjs-blog-cms-wisp)
-- [Part 3: Deploying Your Next.js Blog (15 min)](https://www.wisp.blog/docs/next-js-blog-starter-kit/deploying-blog?utm_source=github&utm_medium=web&utm_campaign=nextjs-blog-cms-wisp)
-
-## Quick Start Guide
-
-First, install the dependencies:
-
-```bash
-npm i --legacy-peer-deps
+```sh
+bun create astro@latest -- --template blog
 ```
 
-**IMPORTANT**: There's a dependency (next-themes) that's not upgraded to React 19 so you will need to add the `--legacy-peer-deps` into the install command. Make sure that Vercel's install command is set to use `npm i --legacy-peer-deps` too!
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-Then, copy the `.env.example` file to `.env`:
+Features:
 
-```bash
-cp .env.example .env
+- ✅ Minimal styling (make it your own!)
+- ✅ 100/100 Lighthouse performance
+- ✅ SEO-friendly with canonical URLs and OpenGraph data
+- ✅ Sitemap support
+- ✅ RSS Feed support
+- ✅ Markdown & MDX support
+
+## 🚀 Project Structure
+
+Inside of your Astro project, you'll see the following folders and files:
+
+```text
+├── public/
+├── src/
+│   ├── components/
+│   ├── content/
+│   ├── layouts/
+│   └── pages/
+├── astro.config.mjs
+├── README.md
+├── package.json
+└── tsconfig.json
 ```
 
-Note: You will need to populate the `NEXT_PUBLIC_BLOG_ID` variable with the Blog ID obtained from wisp after you've created an account.
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-Finally, run the development server:
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-```bash
-npm run dev
-```
+The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Any static assets, like images, can be placed in the `public/` directory.
 
-## Getting Help
+## 🧞 Commands
 
-Full documentation on how to get started on wisp as well as this starter kit is available on [wisp's documentation site](https://www.wisp.blog/docs/next-js-blog-starter-kit/overview?utm_source=github&utm_medium=web&utm_campaign=nextjs-blog-cms-wisp)
+All commands are run from the root of the project, from a terminal:
 
-## Other template
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `bun install`             | Installs dependencies                            |
+| `bun dev`             | Starts local dev server at `localhost:4321`      |
+| `bun build`           | Build your production site to `./dist/`          |
+| `bun preview`         | Preview your build locally, before deploying     |
+| `bun astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `bun astro -- --help` | Get help using the Astro CLI                     |
 
-Like this template?
+## 👀 Want to learn more?
 
-Check out our [corporate blog template here](https://github.com/Wisp-CMS/nextjs-corporate-blog-starter).
+Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## Credit
+
+This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
