@@ -4,6 +4,11 @@ const today = new Date();
 
 <footer>
 	&copy; {today.getFullYear()} Your name here. All rights reserved.
+	<nav class="footer-links">
+		<a href="/contact-us">Contact Us</a>
+		<span class="separator">•</span>
+		<a href="/privacy-policy">Privacy Policy</a>
+	</nav>
 	<div class="social-links">
 		<a href="https://m.webtoo.ls/@astro" target="_blank">
 			<span class="sr-only">Follow Astro on Mastodon</span>
@@ -45,6 +50,25 @@ const today = new Date();
 		background: linear-gradient(var(--gray-gradient)) no-repeat;
 		color: rgb(var(--gray));
 		text-align: center;
+	}
+	.footer-links {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 1em;
+		margin-top: 1em;
+	}
+	.footer-links a {
+		text-decoration: none;
+		color: rgb(var(--gray));
+		transition: color 0.2s ease;
+	}
+	.footer-links a:hover {
+		color: rgb(var(--gray-dark));
+		text-decoration: underline;
+	}
+	.footer-links .separator {
+		color: rgb(var(--gray-light));
 	}
 	.social-links {
 		display: flex;
