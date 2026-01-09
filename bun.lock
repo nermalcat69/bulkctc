@@ -1,6 +1,5 @@
 {
   "lockfileVersion": 1,
-  "configVersion": 1,
   "workspaces": {
     "": {
       "name": "bulkctc",
@@ -10,6 +9,7 @@
         "@astrojs/sitemap": "^3.6.0",
         "@astrojs/vercel": "^9.0.2",
         "@tailwindcss/vite": "^4.1.18",
+        "@vercel/analytics": "^1.6.1",
         "astro": "^5.16.6",
         "sharp": "^0.34.3",
         "tailwindcss": "^4.1.18",
