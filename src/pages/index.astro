@@ -3,6 +3,7 @@ import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+import Analytics from '@vercel/analy
 ---
 
 <!doctype html>
@@ -12,6 +13,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 	</head>
 	<body>
 		<Header />
+		<Analytics />
 		<main>
 			<h1>🧑‍🚀 Hello, Astronaut!</h1>
 			<p>
