@@ -1,114 +1,35 @@
 ---
-import AboutHeroImage from '../assets/blog-placeholder-about.jpg';
-import Layout from '../layouts/BlogPost.astro';
+import MainLayout from "@/layouts/MainLayout.astro";
+import ContactSection from "@components/sections/misc/ContactSection.astro";
+import { SITE } from "@data/constants";
+
+const pageTitle: string = `About | ${SITE.title}`;
+const metaDescription =
+  "Have questions or want to discuss a project? Reach out, and let's craft the perfect solution with our tools and services.";
+const ogTitle = "About Us | BulkCTC";
 ---
 
-<Layout
-  title="About BulkCTC"
-  description="BulkCTC is an informational platform focused on CTC tea grades, bulk chai behaviour, and sourcing knowledge for businesses."
-  pubDate={new Date('December 26 2025')}
-  heroImage={AboutHeroImage}
+<MainLayout
+  title={pageTitle}
+  customDescription={metaDescription}
+  customOgTitle={ogTitle}
+  structuredData={{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "@id": "https://bulkctc.com/about",
+    url: "https://bulkctc.com/about",
+    name: "About Us | BulkCTC",
+    description:
+      "BulkCTC is a leading provider of bulk construction tools and equipment. Our mission is to provide our clients with the highest quality products and services to meet their construction needs.",
+    isPartOf: {
+      "@type": "WebSite",
+      url: "https://bulkctc.com",
+      name: "BulkCTC",
+      description:
+        "BulkCTC offers top-tier hardware tools and expert construction services to meet all your project needs.",
+    },
+    inLanguage: "en-US",
+  }}
 >
-  <p>
-    <strong>BulkCTC</strong> is an informational platform dedicated to explaining
-    <strong> CTC (Crush, Tear, Curl) tea</strong> and how it behaves when used at
-    scale. We focus on clarity around grades, strength, colour, and consistency —
-    areas that are often misunderstood in bulk chai usage.
-  </p>
-
-  <p>
-    Chai is consumed every day across offices, cafés, canteens, factories, and
-    retail outlets. Yet, most information available online is either consumer-
-    focused or overly simplified. BulkCTC exists to bridge that gap by offering
-    practical, business-relevant explanations around CTC tea.
-  </p>
-
-  <h2>What BulkCTC Covers</h2>
-
-  <ul>
-    <li>Different CTC tea grades and particle sizes</li>
-    <li>Why some CTC teas brew darker or stronger than others</li>
-    <li>The role of dust, fannings, and leaf size in chai</li>
-    <li>How CTC tea behaves differently in bulk preparation</li>
-    <li>Common misconceptions around “strong” chai</li>
-  </ul>
-
-  <h2>Informational, Not Instructional</h2>
-
-  <p>
-    BulkCTC does not publish operational details such as pricing structures,
-    internal sourcing methods, or proprietary supply processes. Instead, we focus
-    on educational insights and industry-level observations that remain useful
-    without being misleading.
-  </p>
-
-  <h2>Who This Platform Is For</h2>
-
-  <ul>
-    <li>Café owners and food service operators</li>
-    <li>Office pantry and facility managers</li>
-    <li>Wholesale buyers and distributors</li>
-    <li>Traders working with CTC tea</li>
-    <li>Businesses sourcing chai in bulk quantities</li>
-  </ul>
-
-  <h2>Part of the GrayCup Ecosystem</h2>
-
-  <p>
-    BulkCTC is owned and operated by <strong>GrayCup</strong>, a group of
-    informational platforms focused on tea knowledge, sourcing, and quality.
-  </p>
-
-  <p>
-    Within the GrayCup ecosystem, different platforms serve different educational
-    purposes:
-  </p>
-
-  <ul>
-    <li>
-      <a href="https://bulkchai.com" target="_blank" rel="noopener noreferrer">
-        BulkChai
-      </a>{' '}
-      focuses on bulk chai usage, business-level chai consumption, and how chai is
-      prepared and consumed at scale.
-    </li>
-    <li>
-      <a href="https://purecha.in" target="_blank" rel="noopener noreferrer">
-        PureCha
-      </a>{' '}
-      explores loose-leaf and orthodox tea, with emphasis on purity, processing,
-      and understanding tea beyond blends.
-    </li>
-    <li>
-      <a href="https://graycup.org" target="_blank" rel="noopener noreferrer">
-        GrayCup.org
-      </a>{' '}
-      serves as the primary brand and company website, outlining the broader
-      vision, values, and initiatives behind these platforms.
-    </li>
-  </ul>
-
-  <p>
-    While each site operates independently, they share common editorial standards
-    and a commitment to clear, accurate information.
-  </p>
-
-  <h2>Our Philosophy</h2>
-
-  <ul>
-    <li>Understanding CTC grades matters more than brand names</li>
-    <li>Consistency is often more important than intensity</li>
-    <li>Better information leads to better sourcing decisions</li>
-  </ul>
-
-  <h2>Get in Touch</h2>
-
-  <p>
-    If you have questions, suggestions, or topics you’d like us to explore, you
-    can reach us at:
-  </p>
-
-  <p>
-    <strong>Email:</strong> bulk@bulkctc.com
-  </p>
-</Layout>
+  <ContactSection />
+</MainLayout>
