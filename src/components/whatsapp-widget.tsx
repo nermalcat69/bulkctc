@@ -1,8 +1,8 @@
 "use client";
 
 import { useState, useRef, useEffect } from "react";
+import { openWhatsApp } from "@/lib/openWhatsApp";
 
-const PHONE = "918527914317";
 const DEFAULT_MESSAGE =
   "Hi, I found your number on BulkCTC and I would like to enquire about bulk CTC tea.";
 
@@ -21,8 +21,7 @@ export function WhatsappWidget() {
   }, [open]);
 
   function handleSend() {
-    const url = `https://web.whatsapp.com/send/?phone=${PHONE}&text=${encodeURIComponent(message)}&type=phone_number&app_absent=0`;
-    window.open(url, "_blank", "noopener,noreferrer");
+    openWhatsApp(message);
     setOpen(false);
   }
 

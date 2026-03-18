@@ -1,4 +1,6 @@
-const PHONE = "918527914317";
+"use client";
+
+import { openWhatsApp } from "@/lib/openWhatsApp";
 
 const WhatsAppIcon = () => (
   <svg
@@ -22,17 +24,14 @@ export function WhatsAppQuoteBtn({
   label = "Get a Quote",
   className = "",
 }: Props) {
-  const url = `https://web.whatsapp.com/send/?phone=${PHONE}&text=${encodeURIComponent(message)}&type=phone_number&app_absent=0`;
   return (
-    <a
-      href={url}
-      target="_blank"
-      rel="noopener noreferrer"
-      className={`inline-flex items-center gap-2 bg-green-600 text-white px-6 py-2.5 text-sm font-medium hover:bg-green-700 transition-colors ${className}`}
+    <button
+      onClick={() => openWhatsApp(message)}
+      className={`inline-flex items-center gap-2 bg-green-600 text-white px-6 py-2.5 text-sm font-medium hover:bg-green-700 transition-colors cursor-pointer ${className}`}
     >
       <WhatsAppIcon />
       {label}
-    </a>
+    </button>
   );
 }
 
