@@ -110,7 +110,7 @@ export function WhatsappWidget() {
                     Founder of Gray Cup
                   </p>
                   <p className="text-green-200 text-[11px] mt-0.5 leading-tight">
-                    +91 85279 14317 · Typically replies instantly
+                    +91 85279 14317
                   </p>
                 </div>
               </div>
