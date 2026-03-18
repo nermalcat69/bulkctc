@@ -14,43 +14,7 @@ const AVATAR_SRC = "/arjun.png";
 export function WhatsappWidget() {
   const [open, setOpen] = useState(false);
   const [message, setMessage] = useState(DEFAULT_MESSAGE);
-  // null = unknown, true = app found, false = app not found
-  const [hasApp, setHasApp] = useState<boolean | null>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
-
-  // ── Detect WhatsApp app on first load via hidden iframe + blur heuristic ──
-  useEffect(() => {
-    let resolved = false;
-
-    const resolve = (found: boolean) => {
-      if (resolved) return;
-      resolved = true;
-      setHasApp(found);
-      window.removeEventListener("blur", onBlur);
-      if (iframe.parentNode) iframe.parentNode.removeChild(iframe);
-      clearTimeout(timer);
-    };
-
-    const onBlur = () => resolve(true);
-    window.addEventListener("blur", onBlur);
-
-    // Hidden iframe pointing at whatsapp:// — browsers that handle the scheme
-    // switch focus to the app, firing window blur within ~500 ms.
-    const iframe = document.createElement("iframe");
-    iframe.style.cssText =
-      "position:fixed;width:1px;height:1px;opacity:0;top:-9999px;left:-9999px;border:0;";
-    iframe.src = "whatsapp://";
-    document.body.appendChild(iframe);
-
-    const timer = setTimeout(() => resolve(false), 1200);
-
-    return () => {
-      resolved = true;
-      window.removeEventListener("blur", onBlur);
-      clearTimeout(timer);
-      if (iframe.parentNode) iframe.parentNode.removeChild(iframe);
-    };
-  }, []);
 
   // ── Focus textarea when panel opens ──────────────────────────────────────
   useEffect(() => {
@@ -62,7 +26,7 @@ export function WhatsappWidget() {
   }, [open]);
 
   function handleSend() {
-    openWhatsApp(message, hasApp ?? undefined);
+    openWhatsApp(message);
     setOpen(false);
   }
 
