@@ -117,7 +117,7 @@ export function WhatsappWidget() {
       {/* FAB */}
       <button
         onClick={() => setOpen((v) => !v)}
-        className="w-14 h-14 rounded-full shadow-lg hover:shadow-2xl transition-shadow flex items-center justify-center bg-transparent p-0 cursor-pointer"
+        className="w-14 h-14 rounded-full flex items-center justify-center bg-transparent p-0"
         aria-label="Chat on WhatsApp"
       >
         <svg
@@ -126,6 +126,7 @@ export function WhatsappWidget() {
           height="56"
           fill="none"
           viewBox="0 0 500 500"
+          className="cursor-pointer transition-[filter] hover:drop-shadow-xl"
         >
           <rect width="500" height="500" fill="#05aa6c" rx="250" />
           <path
