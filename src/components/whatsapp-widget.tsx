@@ -62,6 +62,7 @@ export function WhatsappWidget() {
                     src={AVATAR_SRC}
                     alt="Arjun Aditya"
                     width={44}
+                    priority
                     height={44}
                     className="object-cover w-full h-full"
                   />
