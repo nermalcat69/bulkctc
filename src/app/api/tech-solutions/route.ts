@@ -1,5 +1,4 @@
 import { NextRequest, NextResponse } from "next/server";
-import { supabaseAdmin } from "@/lib/supabase";
 import { z } from "zod";
 
 const schema = z.object({
@@ -48,14 +47,8 @@ export async function POST(request: NextRequest) {
     return NextResponse.json({ error: "Security check failed" }, { status: 403 });
   }
 
-  const { error } = await supabaseAdmin
-    .from("tech_solutions_requests")
-    .insert(data);
-
-  if (error) {
-    console.error("Supabase insert error:", error);
-    return NextResponse.json({ error: "Failed to save request" }, { status: 500 });
-  }
+  // TODO: re-enable Supabase persistence when credentials are configured
+  console.log("Tech solutions request received:", data);
 
   return NextResponse.json({ success: true }, { status: 201 });
 }

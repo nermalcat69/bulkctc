@@ -37,12 +37,14 @@ export function Navbar() {
 
           {/* RIGHT */}
           <div className="flex items-center gap-3">
-            <Link
-              href="/contact"
+            <a
+              href="https://wa.me/918527914317"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hidden md:inline-block border border-neutral-900 px-5 py-2 text-sm font-medium hover:bg-neutral-900 hover:text-white transition-colors"
             >
               Get a Quote
-            </Link>
+            </a>
 
             {/* Hamburger */}
             <button
@@ -96,13 +98,15 @@ export function Navbar() {
           </nav>
 
           <div className="mt-6">
-            <Link
-              href="/contact"
+            <a
+              href="https://wa.me/918527914317"
+              target="_blank"
+              rel="noopener noreferrer"
               onClick={() => setMenuOpen(false)}
               className="block w-full border border-neutral-900 px-5 py-2.5 text-sm font-medium text-center hover:bg-neutral-900 hover:text-white transition-colors"
             >
               Get a Quote
-            </Link>
+            </a>
           </div>
         </aside>
       </div>
