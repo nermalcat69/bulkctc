@@ -89,16 +89,6 @@ export function WhatsappWidget() {
               </button>
             </div>
 
-            {/* Body */}
-            <div className="p-4 bg-[#e5ddd5] shrink-0">
-              <div className="bg-white rounded-lg rounded-tl-none px-3 py-2.5 shadow-sm max-w-[90%]">
-                <p className="text-neutral-700 text-xs leading-relaxed">
-                  Hi! 👋 How can we help you with bulk CTC tea? Edit the message below and hit Send.
-                </p>
-                <p className="text-neutral-400 text-[10px] mt-1 text-right">BulkCTC</p>
-              </div>
-            </div>
-
             {/* Input — grows to fill remaining space on mobile */}
             <div className="flex-1 md:flex-none p-3 bg-[#f0f0f0] flex items-end gap-2">
               <textarea
@@ -106,7 +96,7 @@ export function WhatsappWidget() {
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
                 onKeyDown={handleKeyDown}
-                className="flex-1 h-full md:h-36 resize-none rounded-xl bg-white px-3 py-2 text-sm text-neutral-800 placeholder:text-neutral-400 focus:outline-none border-none shadow-sm"
+                className="flex-1 h-full md:h-72 resize-none rounded-xl bg-white px-3 py-2 text-sm text-neutral-800 placeholder:text-neutral-400 focus:outline-none border-none shadow-sm"
                 placeholder="Type a message…"
               />
               <button
@@ -127,7 +117,7 @@ export function WhatsappWidget() {
       {/* FAB */}
       <button
         onClick={() => setOpen((v) => !v)}
-        className="w-14 h-14 rounded-full shadow-lg hover:shadow-xl transition-shadow flex items-center justify-center bg-transparent p-0"
+        className="w-14 h-14 rounded-full shadow-lg hover:shadow-2xl transition-shadow flex items-center justify-center bg-transparent p-0 cursor-pointer"
         aria-label="Chat on WhatsApp"
       >
         <svg
