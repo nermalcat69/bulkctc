@@ -62,7 +62,7 @@ export default function Home() {
           <h1 className="text-6xl md:text-8xl font-bold tracking-tight text-neutral-900 leading-none mb-8">
             Bulk CTC Tea.
             <br />
-            <span className="text-green-700">Delivered.</span>
+            <span className="text-green-500">Delivered.</span>
           </h1>
           <p className="text-xl text-neutral-600 leading-relaxed max-w-xl mb-10">
             Direct-from-garden CTC tea for businesses across India. {Object.keys(allCities).length} states,{" "}
