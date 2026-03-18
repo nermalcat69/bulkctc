@@ -22,7 +22,7 @@ export function WhatsAppQuoteBtn({
   label = "Get a Quote",
   className = "",
 }: Props) {
-  const url = `https://wa.me/${PHONE}?text=${encodeURIComponent(message)}`;
+  const url = `https://web.whatsapp.com/send/?phone=${PHONE}&text=${encodeURIComponent(message)}&type=phone_number&app_absent=0`;
   return (
     <a
       href={url}

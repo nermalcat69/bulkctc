@@ -21,7 +21,7 @@ export function WhatsappWidget() {
   }, [open]);
 
   function handleSend() {
-    const url = `https://wa.me/${PHONE}?text=${encodeURIComponent(message)}`;
+    const url = `https://web.whatsapp.com/send/?phone=${PHONE}&text=${encodeURIComponent(message)}&type=phone_number&app_absent=0`;
     window.open(url, "_blank", "noopener,noreferrer");
     setOpen(false);
   }
@@ -35,64 +35,75 @@ export function WhatsappWidget() {
 
   return (
     <div className="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3">
-      {/* Chat panel */}
+      {/* Chat panel — full screen on mobile, floating panel on md+ */}
       {open && (
-        <div className="w-80 rounded-2xl shadow-2xl overflow-hidden border border-neutral-200 bg-white animate-in fade-in slide-in-from-bottom-4 duration-200">
-          {/* Header */}
-          <div className="bg-green-600 px-4 py-3 flex items-center justify-between">
-            <div className="flex items-center gap-3">
-              <div className="w-9 h-9 rounded-full bg-white/20 flex items-center justify-center shrink-0">
-                <WhatsAppIcon className="w-5 h-5 text-white" />
+        <>
+          {/* Mobile backdrop */}
+          <div
+            className="fixed inset-0 bg-black/40 md:hidden"
+            onClick={() => setOpen(false)}
+          />
+
+          <div className="
+            fixed inset-0 flex flex-col bg-white
+            md:static md:inset-auto md:w-96 md:rounded-2xl md:shadow-2xl md:overflow-hidden md:border md:border-neutral-200
+            animate-in fade-in slide-in-from-bottom-4 duration-200 z-10
+          ">
+            {/* Header */}
+            <div className="bg-green-600 px-4 py-3 flex items-center justify-between shrink-0">
+              <div className="flex items-center gap-3">
+                <div className="w-9 h-9 rounded-full bg-white/20 flex items-center justify-center shrink-0">
+                  <WhatsAppIcon className="w-5 h-5 text-white" />
+                </div>
+                <div>
+                  <p className="text-white text-sm font-semibold leading-none">BulkCTC</p>
+                  <p className="text-green-100 text-xs mt-0.5">Typically replies instantly</p>
+                </div>
               </div>
-              <div>
-                <p className="text-white text-sm font-semibold leading-none">BulkCTC</p>
-                <p className="text-green-100 text-xs mt-0.5">Typically replies instantly</p>
+              <button
+                onClick={() => setOpen(false)}
+                className="text-white/70 hover:text-white transition-colors p-1"
+                aria-label="Close"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="w-5 h-5">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+
+            {/* Body */}
+            <div className="p-4 bg-[#e5ddd5] shrink-0">
+              <div className="bg-white rounded-lg rounded-tl-none px-3 py-2.5 shadow-sm max-w-[90%]">
+                <p className="text-neutral-700 text-xs leading-relaxed">
+                  Hi! 👋 How can we help you with bulk CTC tea? Edit the message below and hit Send.
+                </p>
+                <p className="text-neutral-400 text-[10px] mt-1 text-right">BulkCTC</p>
               </div>
             </div>
-            <button
-              onClick={() => setOpen(false)}
-              className="text-white/70 hover:text-white transition-colors p-1"
-              aria-label="Close"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2} className="w-4 h-4">
-                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
-          </div>
 
-          {/* Body */}
-          <div className="p-4 bg-[#e5ddd5]">
-            <div className="bg-white rounded-lg rounded-tl-none px-3 py-2.5 shadow-sm max-w-[90%]">
-              <p className="text-neutral-700 text-xs leading-relaxed">
-                Hi! 👋 How can we help you with bulk CTC tea? Edit the message below and hit Send.
-              </p>
-              <p className="text-neutral-400 text-[10px] mt-1 text-right">BulkCTC</p>
+            {/* Input — grows to fill remaining space on mobile */}
+            <div className="flex-1 md:flex-none p-3 bg-[#f0f0f0] flex items-end gap-2">
+              <textarea
+                ref={textareaRef}
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                onKeyDown={handleKeyDown}
+                className="flex-1 h-full md:h-36 resize-none rounded-xl bg-white px-3 py-2 text-sm text-neutral-800 placeholder:text-neutral-400 focus:outline-none border-none shadow-sm"
+                placeholder="Type a message…"
+              />
+              <button
+                onClick={handleSend}
+                disabled={!message.trim()}
+                className="w-10 h-10 rounded-full bg-green-600 hover:bg-green-700 disabled:opacity-40 flex items-center justify-center shrink-0 transition-colors self-end"
+                aria-label="Send on WhatsApp"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 text-white">
+                  <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
+                </svg>
+              </button>
             </div>
           </div>
-
-          {/* Input */}
-          <div className="p-3 bg-[#f0f0f0] flex items-end gap-2">
-            <textarea
-              ref={textareaRef}
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
-              onKeyDown={handleKeyDown}
-              rows={3}
-              className="flex-1 resize-none rounded-xl bg-white px-3 py-2 text-sm text-neutral-800 placeholder:text-neutral-400 focus:outline-none border-none shadow-sm"
-              placeholder="Type a message…"
-            />
-            <button
-              onClick={handleSend}
-              disabled={!message.trim()}
-              className="w-10 h-10 rounded-full bg-green-600 hover:bg-green-700 disabled:opacity-40 flex items-center justify-center shrink-0 transition-colors"
-              aria-label="Send on WhatsApp"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5 text-white">
-                <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z" />
-              </svg>
-            </button>
-          </div>
-        </div>
+        </>
       )}
 
       {/* FAB */}
