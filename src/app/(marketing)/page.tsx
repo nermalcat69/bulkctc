@@ -71,7 +71,7 @@ export default function Home() {
           <div className="flex flex-wrap gap-4">
             <Link
               href="/available-locations"
-              className="inline-block border border-neutral-600 px-8 py-3 text-sm font-medium text-neutral-400 hover:border-neutral-400 transition-colors whitespace-nowrap"
+              className="inline-block border border-neutral-700 px-8 py-3 text-sm font-medium text-neutral-700 hover:border-neutral-500 transition-colors whitespace-nowrap"
             >
               Browse Locations
             </Link>
