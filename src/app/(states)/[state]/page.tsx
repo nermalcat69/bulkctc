@@ -8,6 +8,7 @@ import {
   getAllStatePages,
   slugify,
 } from "@/lib/cityData";
+import { WhatsAppQuoteBtn } from "@/components/whatsapp-quote-btn";
 
 interface StatePageProps {
   params: Promise<{ state: string }>;
@@ -110,12 +111,10 @@ export default async function StatePage({ params }: StatePageProps) {
             {stateContext} Wholesale bulk CTC tea for hotels, factories, corporate offices, and institutions across {stateName}.
           </p>
           <div className="flex flex-wrap gap-3">
-            <Link
-              href="/contact"
-              className="inline-block border border-neutral-900 px-6 py-2.5 text-sm font-medium hover:bg-neutral-900 hover:text-white transition-colors"
-            >
-              Get a Quote
-            </Link>
+            <WhatsAppQuoteBtn
+              message={`Hi, I found your number on BulkCTC. I am from ${stateName} and I would like to enquire about bulk CTC tea supply.`}
+              className="px-6 py-2.5"
+            />
             <Link
               href="/available-locations"
               className="inline-block border border-neutral-300 px-6 py-2.5 text-sm font-medium text-neutral-600 hover:border-neutral-600 transition-colors"
@@ -236,12 +235,11 @@ export default async function StatePage({ params }: StatePageProps) {
               Get pricing, grades, and delivery schedule for your location.
             </p>
           </div>
-          <Link
-            href="/contact"
-            className="inline-block border border-white px-8 py-3 text-sm font-medium hover:bg-white hover:text-neutral-900 transition-colors whitespace-nowrap"
-          >
-            Request Quote
-          </Link>
+          <WhatsAppQuoteBtn
+            message={`Hi, I found your number on BulkCTC. I am from ${stateName} and I would like to enquire about bulk CTC tea supply.`}
+            label="Request Quote"
+            className="px-8 py-3 whitespace-nowrap"
+          />
         </div>
       </section>
     </div>

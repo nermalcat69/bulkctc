@@ -1,6 +1,7 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { getAllCities, slugify } from "@/lib/cityData";
+import { WhatsAppQuoteBtn, WHATSAPP_DEFAULT_MESSAGE } from "@/components/whatsapp-quote-btn";
 
 export const metadata: Metadata = {
   title: "Bulk CTC Tea Supplier Across India | BulkCTC",
@@ -74,12 +75,7 @@ export default function Home() {
             >
               Browse Locations
             </Link>
-            <Link
-              href="/contact"
-              className="inline-block border border-neutral-300 px-7 py-3 text-sm font-medium text-neutral-600 hover:border-neutral-600 transition-colors"
-            >
-              Get a Quote
-            </Link>
+            <WhatsAppQuoteBtn message={WHATSAPP_DEFAULT_MESSAGE} className="px-7 py-3" />
           </div>
         </div>
       </section>
@@ -237,12 +233,7 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-wrap gap-3">
-            <Link
-              href="/contact"
-              className="inline-block border border-white px-8 py-3 text-sm font-medium hover:bg-white hover:text-neutral-900 transition-colors whitespace-nowrap"
-            >
-              Get a Quote
-            </Link>
+            <WhatsAppQuoteBtn message={WHATSAPP_DEFAULT_MESSAGE} className="px-8 py-3 whitespace-nowrap" />
             <Link
               href="/available-locations"
               className="inline-block border border-neutral-600 px-8 py-3 text-sm font-medium text-neutral-400 hover:border-neutral-400 transition-colors whitespace-nowrap"

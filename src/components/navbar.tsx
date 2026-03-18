@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import Link from "next/link";
+import { WhatsAppQuoteBtn, WHATSAPP_DEFAULT_MESSAGE } from "@/components/whatsapp-quote-btn";
 
 export function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -37,14 +38,10 @@ export function Navbar() {
 
           {/* RIGHT */}
           <div className="flex items-center gap-3">
-            <a
-              href="https://wa.me/918527914317"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hidden md:inline-block border border-neutral-900 px-5 py-2 text-sm font-medium hover:bg-neutral-900 hover:text-white transition-colors"
-            >
-              Get a Quote
-            </a>
+            <WhatsAppQuoteBtn
+              message={WHATSAPP_DEFAULT_MESSAGE}
+              className="hidden md:inline-flex px-5 py-2"
+            />
 
             {/* Hamburger */}
             <button
@@ -98,15 +95,10 @@ export function Navbar() {
           </nav>
 
           <div className="mt-6">
-            <a
-              href="https://wa.me/918527914317"
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => setMenuOpen(false)}
-              className="block w-full border border-neutral-900 px-5 py-2.5 text-sm font-medium text-center hover:bg-neutral-900 hover:text-white transition-colors"
-            >
-              Get a Quote
-            </a>
+            <WhatsAppQuoteBtn
+              message={WHATSAPP_DEFAULT_MESSAGE}
+              className="w-full justify-center px-5 py-2.5"
+            />
           </div>
         </aside>
       </div>
