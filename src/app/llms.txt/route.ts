@@ -2,7 +2,7 @@ import { createGET } from "next-llms-generator/route";
 
 export const GET = createGET({
   generatorOptions: {
-    siteUrl: "http://graycup.org/",
+    siteUrl: "http://bulkctc.com/",
     enableRecursiveDiscovery: true,
   },
 });

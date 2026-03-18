@@ -8,7 +8,7 @@ export async function POST(req: Request) {
       return Response.json({ error: "Invalid url list" }, { status: 400 });
     }
 
-    const siteUrl = process.env.SITE_URL || "https://graycup.org";
+    const siteUrl = process.env.SITE_URL || "https://bulkctc.com";
     const host = new URL(siteUrl).host;
     const key = process.env.INDEXNOW_KEY;
 

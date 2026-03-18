@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://graycup.org
+Host: https://bulkctc.com
 
 # Sitemaps
-Sitemap: https://graycup.org/sitemap.xml
+Sitemap: https://bulkctc.com/sitemap.xml

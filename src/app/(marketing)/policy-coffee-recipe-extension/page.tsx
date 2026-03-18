@@ -95,7 +95,7 @@ export default function PrivacyPolicyChromeExt() {
             contact us at:
           </p>
           <p className="mt-2 font-medium">
-            office@graycup.org
+            office@bulkctc.com
           </p>
         </section>
       </div>

@@ -1,11 +1,11 @@
 ## Website
 
-Go [Preview](https://.graycup.org)
+Go [Preview](https://.bulkctc.com)
 
 Other Links
 
-- [Fun.graycup.org](https://fun.graycup.org)
-- [docs.graycup.org](https://docs.graycup.org)
+- [Fun.bulkctc.com](https://fun.bulkctc.com)
+- [docs.bulkctc.com](https://docs.bulkctc.com)
 - [github.com/coldran](https://github.com/coldran)
 
 If you want to contribute, first open an issue :D
