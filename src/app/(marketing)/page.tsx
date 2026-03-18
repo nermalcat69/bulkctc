@@ -220,29 +220,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      {/* CTA */}
-      <section className="max-w-6xl mx-auto px-6 pb-20">
-        <div className="bg-neutral-900 text-white p-8 md:p-12 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
-          <div>
-            <h2 className="text-2xl font-semibold mb-2">
-              Ready to start bulk CTC procurement?
-            </h2>
-            <p className="text-neutral-400 text-sm">
-              Tell us your location, required grades, and monthly volume. We'll respond within 24 hours.
-            </p>
-          </div>
-          <div className="flex flex-wrap gap-3">
-            <WhatsAppQuoteBtn message={WHATSAPP_DEFAULT_MESSAGE} className="px-8 py-3 whitespace-nowrap" />
-            <Link
-              href="/available-locations"
-              className="inline-block border border-neutral-600 px-8 py-3 text-sm font-medium text-neutral-400 hover:border-neutral-400 transition-colors whitespace-nowrap"
-            >
-              Browse Locations
-            </Link>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
