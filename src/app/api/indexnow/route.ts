@@ -1,38 +1,32 @@
+import { submitToIndexNow } from "@/lib/indexnow";
+
 export async function POST(req: Request) {
   try {
     const body = await req.json().catch(() => null);
-    const urls: string[] =
-      Array.isArray(body) ? body : Array.isArray(body?.urlList) ? body.urlList : [];
+    const urls: unknown = body?.urls;
 
-    if (!urls || !Array.isArray(urls) || urls.length === 0) {
-      return Response.json({ error: "Invalid url list" }, { status: 400 });
+    if (!Array.isArray(urls) || urls.length === 0) {
+      return Response.json(
+        { error: "Body must contain a non-empty 'urls' array" },
+        { status: 400 }
+      );
     }
 
-    const siteUrl = process.env.SITE_URL || "https://bulkctc.com";
-    const host = new URL(siteUrl).host;
-    const key = process.env.INDEXNOW_KEY;
+    if (urls.length > 10_000) {
+      return Response.json(
+        { error: "URL list exceeds maximum of 10,000" },
+        { status: 400 }
+      );
+    }
 
-    if (!key) {
+    if (!process.env.INDEXNOW_KEY) {
       return Response.json({ error: "INDEXNOW_KEY not set" }, { status: 500 });
     }
 
-    const payload = {
-      host,
-      key,
-      keyLocation: `${siteUrl}/${key}.txt`,
-      urlList: urls,
-    };
+    await submitToIndexNow(urls as string[]);
 
-    const res = await fetch("https://api.indexnow.org/indexnow", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(payload),
-    });
-
-    return Response.json({ success: res.ok });
-  } catch (e) {
+    return Response.json({ success: true, submitted: urls.length });
+  } catch {
     return Response.json({ error: "Unexpected error" }, { status: 500 });
   }
 }
