@@ -172,10 +172,31 @@ export default async function CityPage({ params }: CityPageProps) {
         </div>
       </section>
 
+      {/* Prose content */}
+      <section className="max-w-6xl mx-auto px-6 pb-16">
+        <div className="max-w-3xl">
+          <h2 className="text-2xl font-semibold text-neutral-900 mb-4">
+            CTC Tea Supply in {cityInfo.city}
+          </h2>
+          <p className="text-neutral-600 leading-relaxed mb-4">
+            {cityInfo.city} draws bulk CTC tea demand from its {cityInfo.industries.slice(0, 3).join(", ")} sectors. Institutional buyers — factory canteens, hotel chains, corporate campuses, and government offices — account for the majority of procurement. BulkCTC supplies these buyers directly from Assam and Dooars gardens, bypassing brokers to deliver consistent quality at wholesale prices.
+          </p>
+          <p className="text-neutral-600 leading-relaxed mb-4">
+            The most commonly ordered grades for {cityInfo.city} include BP1 (Broken Pekoe) for medium-bodied daily brew, PF1 (Pekoe Fannings) for quick-brewing high-output kitchens, and PD (Pekoe Dust) for maximum colour and strength in mass canteens. All grades are available in {cityInfo.supplyChain.packagingSizes.join(" kg, ")} kg bags.
+          </p>
+          <p className="text-neutral-600 leading-relaxed">
+            Orders are shipped from {cityInfo.supplyChain.source} with a transit of {cityInfo.transitDays} to {cityInfo.city}. The minimum order quantity is {cityInfo.supplyChain.moq}. Businesses placing repeat orders can arrange scheduled dispatch — reach out on WhatsApp to set up a supply schedule.
+          </p>
+        </div>
+      </section>
+
       {/* Nearby areas */}
       <section className="max-w-6xl mx-auto px-6 pb-16">
-        <p className="text-xs font-medium uppercase tracking-widest text-neutral-400 mb-4">
+        <p className="text-xs font-medium uppercase tracking-widest text-neutral-400 mb-3">
           Nearby Areas Covered
+        </p>
+        <p className="text-neutral-600 leading-relaxed mb-4 max-w-2xl">
+          Our delivery network covers {cityInfo.city} and extends to nearby areas including {cityInfo.nearbyAreas.join(", ")}. Businesses across this region receive the same grades, pricing, and transit times.
         </p>
         <div className="flex flex-wrap gap-2">
           {[cityInfo.city, ...cityInfo.nearbyAreas].map((area) => (

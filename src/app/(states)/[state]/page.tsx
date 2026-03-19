@@ -143,6 +143,24 @@ export default async function StatePage({ params }: StatePageProps) {
         </div>
       </section>
 
+      {/* State prose */}
+      <section className="max-w-6xl mx-auto px-6 pb-16">
+        <div className="max-w-3xl">
+          <h2 className="text-2xl font-semibold text-neutral-900 mb-4">
+            Bulk CTC Tea in {stateName}
+          </h2>
+          <p className="text-neutral-600 leading-relaxed mb-4">
+            BulkCTC serves {cities.length} cities across {stateName}, supplying wholesale CTC tea to hotels, factories, corporate offices, government canteens, and educational institutions. All orders ship directly from certified Assam and Dooars gardens — no middlemen, no grade inconsistency batch to batch.
+          </p>
+          <p className="text-neutral-600 leading-relaxed mb-4">
+            CTC grades available across {stateName} include BP1 (Broken Pekoe), PF1 (Pekoe Fannings), PD (Pekoe Dust), BOPSM, and fannings varieties. Each grade is suited to a different brewing style and output volume — BP1 and PF1 for hotels and corporate kitchens, PD and dust grades for high-volume factory canteens. All grades are packed in {cities[0]?.supplyChain.packagingSizes.join(" kg, ")} kg bags.
+          </p>
+          <p className="text-neutral-600 leading-relaxed">
+            Delivery across {stateName} takes {transitRange} depending on your city. The minimum order is {cities[0]?.supplyChain.moq}. Repeat buyers can set up scheduled dispatches — same grade, same price, recurring supply without placing fresh orders each time.
+          </p>
+        </div>
+      </section>
+
       {/* Cities */}
       <section className="max-w-6xl mx-auto px-6 pb-16">
         <p className="text-xs font-medium uppercase tracking-widest text-neutral-400 mb-6">
@@ -176,8 +194,11 @@ export default async function StatePage({ params }: StatePageProps) {
 
       {/* Industries */}
       <section className="max-w-6xl mx-auto px-6 pb-16">
-        <p className="text-xs font-medium uppercase tracking-widest text-neutral-400 mb-6">
+        <p className="text-xs font-medium uppercase tracking-widest text-neutral-400 mb-4">
           Industries Served in {stateName}
+        </p>
+        <p className="text-neutral-600 leading-relaxed mb-5 max-w-2xl">
+          Across {stateName}, BulkCTC supplies the {allIndustries.slice(0, 4).join(", ")}{allIndustries.length > 4 ? ", and more" : ""} sectors. Each industry has different volume requirements and grade preferences — we supply all of them from the same direct-garden source.
         </p>
         <div className="flex flex-wrap gap-2">
           {allIndustries.map((industry) => (
