@@ -1,5 +1,5 @@
 import type { MetadataRoute } from "next";
-import { getAllCityPages, getAllStatePages } from "@/lib/cityData";
+import { getAllCityPages, getAllStatePages, slugify, getAllCities } from "@/lib/cityData";
 
 const SITE_URL = "https://bulkctc.com";
 
@@ -30,5 +30,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.8,
   }));
 
-  return [...staticRoutes, ...stateRoutes, ...cityRoutes];
+  const allCitiesData = getAllCities();
+  const supplierStateRoutes: MetadataRoute.Sitemap = statePages.map(({ state }) => ({
+    url: `${SITE_URL}/${state}-bulk-suppliers`,
+    lastModified: new Date(),
+    changeFrequency: "monthly",
+    priority: 0.85,
+  }));
+  const supplierCityRoutes: MetadataRoute.Sitemap = Object.entries(allCitiesData).flatMap(
+    ([, cities]) =>
+      Object.keys(cities).map((city) => ({
+        url: `${SITE_URL}/${slugify(city)}-bulk-suppliers`,
+        lastModified: new Date(),
+        changeFrequency: "monthly" as const,
+        priority: 0.8,
+      }))
+  );
+
+  return [...staticRoutes, ...stateRoutes, ...cityRoutes, ...supplierStateRoutes, ...supplierCityRoutes];
 }

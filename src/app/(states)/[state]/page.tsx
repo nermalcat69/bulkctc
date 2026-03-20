@@ -223,7 +223,7 @@ export default async function StatePage({ params }: StatePageProps) {
               Direct from Assam & Dooars Gardens
             </h2>
             <p className="text-neutral-600 leading-relaxed">
-              All CTC tea is sourced directly from certified gardens in Assam and Dooars. We supply BP1, PF1, PD, BOPSM, and fannings grades, packed in 25 kg, 50 kg, and 100 kg bags.
+              All CTC tea is sourced directly from certified gardens in Assam and Dooars. We supply BP1, PF1, PD, BOPSM, and fannings grades, packed in 25 kg and 50 kg bags.
             </p>
           </div>
           <div className="mt-8 md:mt-0">

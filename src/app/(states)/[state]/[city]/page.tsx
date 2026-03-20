@@ -182,7 +182,7 @@ export default async function CityPage({ params }: CityPageProps) {
             {cityInfo.city} draws bulk CTC tea demand from its {cityInfo.industries.slice(0, 3).join(", ")} sectors. Institutional buyers — factory canteens, hotel chains, corporate campuses, and government offices — account for the majority of procurement. BulkCTC supplies these buyers directly from Assam and Dooars gardens, bypassing brokers to deliver consistent quality at wholesale prices.
           </p>
           <p className="text-neutral-600 leading-relaxed mb-4">
-            The most commonly ordered grades for {cityInfo.city} include BP1 (Broken Pekoe) for medium-bodied daily brew, PF1 (Pekoe Fannings) for quick-brewing high-output kitchens, and PD (Pekoe Dust) for maximum colour and strength in mass canteens. All grades are available in {cityInfo.supplyChain.packagingSizes.join(" kg, ")} kg bags.
+            The most commonly ordered grades for {cityInfo.city} include BP1 (Broken Pekoe) for medium-bodied daily brew, PF1 (Pekoe Fannings) for quick-brewing high-output kitchens, and PD (Pekoe Dust) for maximum colour and strength in mass canteens. All grades are available in {cityInfo.supplyChain.packagingSizes.join(", ")} bags.
           </p>
           <p className="text-neutral-600 leading-relaxed">
             Orders are shipped from {cityInfo.supplyChain.source} with a transit of {cityInfo.transitDays} to {cityInfo.city}. The minimum order quantity is {cityInfo.supplyChain.moq}. Businesses placing repeat orders can arrange scheduled dispatch — reach out on WhatsApp to set up a supply schedule.

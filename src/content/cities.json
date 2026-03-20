@@ -13,7 +13,7 @@
         { "question": "How is bulk CTC tea delivered in Mumbai?", "answer": "We deliver across Mumbai, Thane, and Navi Mumbai within 3–4 days from dispatch. Door delivery available for orders above 100 kg." },
         { "question": "Which CTC tea grades are most used in Mumbai?", "answer": "BP1, PF1, and PD grades dominate Mumbai's HORECA and institutional segments. We supply all major Assam CTC grades." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 19.076, "lng": 72.8777 } }
     },
     "Pune": {
@@ -29,7 +29,7 @@
         { "question": "How quickly is bulk CTC tea delivered in Pune?", "answer": "Delivery to Pune takes 3–4 days from dispatch, covering Pimpri-Chinchwad and surrounding industrial areas." },
         { "question": "Which industries in Pune buy bulk CTC tea?", "answer": "IT companies, auto manufacturers like Tata Motors and Bajaj, engineering colleges, and hotel chains are key buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 18.5204, "lng": 73.8567 } }
     },
     "Nagpur": {
@@ -45,7 +45,7 @@
         { "question": "How is bulk CTC tea delivered in Nagpur?", "answer": "Delivery to Nagpur takes 3–5 days from dispatch, with coverage extending to Wardha and Amravati." },
         { "question": "Why is Nagpur a key bulk tea distribution point?", "answer": "Nagpur's central geography makes it a natural re-distribution hub for bulk CTC tea across Maharashtra and MP." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 21.1458, "lng": 79.0882 } }
     }
   },
@@ -63,7 +63,7 @@
         { "question": "How is bulk CTC tea delivered in Chennai?", "answer": "Delivery to Chennai and surrounding areas takes 5–6 days from dispatch hubs in Assam/Dooars." },
         { "question": "Which CTC tea grades are popular in Chennai?", "answer": "PF1 and BP1 grades are most popular for office and manufacturing canteens across Chennai." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 13.0827, "lng": 80.2707 } }
     },
     "Coimbatore": {
@@ -79,7 +79,7 @@
         { "question": "How quickly is bulk CTC delivered in Coimbatore?", "answer": "Delivery takes 5–6 days from dispatch, covering Tiruppur, Erode, and Pollachi areas." },
         { "question": "Which industries in Coimbatore need bulk CTC tea?", "answer": "Hosiery and textile mills, auto component firms, hospitals, and engineering colleges are major buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 11.0168, "lng": 76.9558 } }
     },
     "Madurai": {
@@ -95,7 +95,7 @@
         { "question": "How is bulk CTC tea delivered in Madurai?", "answer": "Delivery to Madurai takes 5–6 days covering Dindigul, Sivakasi, and surrounding districts." },
         { "question": "Why is bulk CTC tea popular in Madurai's hospitality sector?", "answer": "Madurai's high tourist footfall means hotels and pilgrimage canteens require large, consistent bulk CTC supply." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 9.9252, "lng": 78.1198 } }
     }
   },
@@ -113,7 +113,7 @@
         { "question": "How quickly is bulk CTC delivered in Noida?", "answer": "Delivery to Noida takes 2–3 days, with coverage across Greater Noida and Ghaziabad." },
         { "question": "Which CTC tea grades are preferred in Noida's offices?", "answer": "PF1 and BP1 are most preferred for office vending machines and corporate canteens across Noida." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 28.5355, "lng": 77.391 } }
     },
     "Lucknow": {
@@ -129,7 +129,7 @@
         { "question": "How is bulk CTC tea delivered in Lucknow?", "answer": "Delivery takes 2–3 days, covering Kanpur, Unnao, and wider Awadh region." },
         { "question": "Which industries in Lucknow buy bulk CTC tea?", "answer": "State secretariat offices, KGMU and medical colleges, hotel chains, and FMCG distributors are key buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 26.8467, "lng": 80.9462 } }
     },
     "Kanpur": {
@@ -145,7 +145,7 @@
         { "question": "How is bulk CTC tea delivered in Kanpur?", "answer": "Delivery takes 2–3 days, covering Unnao, Fatehpur, and surrounding industrial areas." },
         { "question": "Why is bulk CTC popular with Kanpur's industries?", "answer": "Large factory workforces require high-volume, consistent supply of affordable CTC tea for canteen operations." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 26.4499, "lng": 80.3319 } }
     }
   },
@@ -163,7 +163,7 @@
         { "question": "How is bulk CTC tea delivered in Bengaluru?", "answer": "Delivery takes 4–5 days from Assam/Dooars dispatch, covering Electronic City, Whitefield, and Tumkur Road areas." },
         { "question": "Which CTC grades are popular in Bengaluru's offices?", "answer": "BP1 and PF1 are standard for office vending and corporate canteens; premium grades suit hospitality buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 12.9716, "lng": 77.5946 } }
     },
     "Mysuru": {
@@ -179,7 +179,7 @@
         { "question": "How is bulk CTC delivered in Mysuru?", "answer": "Delivery to Mysuru takes 4–5 days, covering Mandya, Hassan, and Chamrajanagar districts." },
         { "question": "Which sectors in Mysuru use bulk CTC tea?", "answer": "Heritage hotels, government offices, silk weaving mills, and educational campuses are major buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 12.2958, "lng": 76.6394 } }
     },
     "Mangaluru": {
@@ -195,7 +195,7 @@
         { "question": "How is bulk CTC delivered in Mangaluru?", "answer": "Delivery to Mangaluru takes 4–5 days, extending to Udupi and Kasaragod districts." },
         { "question": "Which industries in Mangaluru need bulk CTC tea?", "answer": "Port authority canteens, Kasturba Hospital, engineering colleges, and tourist hotels are key buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 12.9141, "lng": 74.856 } }
     }
   },
@@ -213,7 +213,7 @@
         { "question": "How is bulk CTC delivered in Ahmedabad?", "answer": "Delivery takes 4–5 days, covering Gandhinagar, Anand, and the Ahmedabad textile belt." },
         { "question": "Which CTC grades suit Ahmedabad's manufacturing sector?", "answer": "PF1 and BP1 are the most consumed grades in Ahmedabad's large factory canteens." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 23.0225, "lng": 72.5714 } }
     },
     "Surat": {
@@ -229,7 +229,7 @@
         { "question": "How is bulk CTC delivered in Surat?", "answer": "Delivery takes 4–5 days, covering Bharuch, Navsari, and South Gujarat coastal areas." },
         { "question": "Which sectors in Surat consume the most bulk CTC tea?", "answer": "Diamond polishing workshops, synthetic textile factories, and retail distributors are the biggest buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 21.1702, "lng": 72.8311 } }
     },
     "Vadodara": {
@@ -245,7 +245,7 @@
         { "question": "How is bulk CTC delivered in Vadodara?", "answer": "Delivery takes 4–5 days, with coverage extending to Anand and Bharuch petrochemical zones." },
         { "question": "Which industries in Vadodara need bulk CTC tea?", "answer": "Petrochemical plants, MS University campuses, Baroda Medical College, and engineering firms are key buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 22.3072, "lng": 73.1812 } }
     }
   },
@@ -263,7 +263,7 @@
         { "question": "How quickly is bulk CTC delivered in Kolkata?", "answer": "Being closest to Assam gardens, Kolkata receives delivery in 1–2 days — fastest in India." },
         { "question": "Which CTC grades are most consumed in Kolkata?", "answer": "All grades including BP, PF, PD, and fannings are consumed in large volumes given the city's chai culture." }
       ],
-      "supplyChain": { "source": "Assam, Dooars, Darjeeling", "moq": "25 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars, Darjeeling", "moq": "25 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 22.5726, "lng": 88.3639 } }
     },
     "Howrah": {
@@ -279,7 +279,7 @@
         { "question": "How is bulk CTC delivered in Howrah?", "answer": "Delivery takes 1–2 days, with Howrah sharing the same fast supply chain as Kolkata." },
         { "question": "Which industries in Howrah use bulk CTC tea?", "answer": "Steel factories, railway workshops, jute mills, and large engineering firms are the top consumers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "25 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "25 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 22.5958, "lng": 88.2636 } }
     },
     "Durgapur": {
@@ -295,7 +295,7 @@
         { "question": "How is bulk CTC delivered in Durgapur?", "answer": "Delivery takes 2–3 days, covering Asansol and Burdwan industrial zones." },
         { "question": "Which sectors in Durgapur are the largest bulk CTC buyers?", "answer": "SAIL's Durgapur Steel Plant, WBPDCL power stations, NIT Durgapur, and chemical plants are major buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 23.5204, "lng": 87.3119 } }
     }
   },
@@ -313,7 +313,7 @@
         { "question": "How is bulk CTC tea delivered in Jaipur?", "answer": "Delivery to Jaipur takes 3–4 days, with coverage extending to Ajmer and Alwar." },
         { "question": "Which industries in Jaipur use bulk CTC tea?", "answer": "Heritage and budget hotels, state government offices, gem polishing units, and hospitals are key buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 26.9124, "lng": 75.7873 } }
     },
     "Udaipur": {
@@ -329,7 +329,7 @@
         { "question": "How is bulk CTC delivered in Udaipur?", "answer": "Delivery takes 3–4 days, covering Bhilwara, Chittorgarh, and the Mewar region." },
         { "question": "Which CTC grades suit Udaipur's hospitality sector?", "answer": "Premium BP1 and BOPSM grades are preferred by Udaipur's luxury hotels for guest room and restaurant service." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 24.5854, "lng": 73.7125 } }
     },
     "Kota": {
@@ -345,7 +345,7 @@
         { "question": "How is bulk CTC delivered in Kota?", "answer": "Delivery takes 3–4 days, covering Bundi, Baran, and surrounding Hadoti region." },
         { "question": "Why is Kota a large bulk CTC tea market?", "answer": "Kota's massive coaching institute ecosystem feeds hundreds of hostels and mess halls needing daily bulk tea supply." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 25.2138, "lng": 75.8648 } }
     }
   },
@@ -363,7 +363,7 @@
         { "question": "How is bulk CTC delivered in Hyderabad?", "answer": "Delivery takes 4–5 days, covering Secunderabad, Ranga Reddy, and HITEC City areas." },
         { "question": "Which industries in Hyderabad consume most bulk CTC tea?", "answer": "HITEC City IT parks, pharma companies, Apollo and Yashoda hospital networks, and Taj hotels are top buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 17.385, "lng": 78.4867 } }
     },
     "Warangal": {
@@ -379,7 +379,7 @@
         { "question": "How is bulk CTC delivered in Warangal?", "answer": "Delivery takes 4–5 days, covering Hanamkonda and Karimnagar districts." },
         { "question": "What industries in Warangal use bulk CTC tea?", "answer": "Handloom weaving units, NIT Warangal, MGM Hospital, and district collector offices are key buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 17.9784, "lng": 79.5941 } }
     },
     "Karimnagar": {
@@ -395,7 +395,7 @@
         { "question": "How is bulk CTC delivered in Karimnagar?", "answer": "Delivery takes 4–5 days, with coverage to Nizamabad and Adilabad districts." },
         { "question": "Which sectors in Karimnagar need bulk CTC tea?", "answer": "Cement plant canteens, paddy processing mills, district hospital cafeterias, and government colleges are buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 18.4386, "lng": 79.1288 } }
     }
   },
@@ -413,7 +413,7 @@
         { "question": "How is bulk CTC delivered in Visakhapatnam?", "answer": "Delivery takes 4–5 days, covering Vizianagaram, Kakinada, and the Northern Andhra coast." },
         { "question": "Which industries in Vizag consume bulk CTC tea?", "answer": "RINL Steel plant, HPCL refinery, naval station canteens, and KGH hospital network are key buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 17.6868, "lng": 83.2185 } }
     },
     "Vijayawada": {
@@ -429,7 +429,7 @@
         { "question": "How is bulk CTC delivered in Vijayawada?", "answer": "Delivery takes 4–5 days, covering Guntur, Tenali, and the Krishna-Godavari delta." },
         { "question": "Which sectors in Vijayawada drive bulk CTC demand?", "answer": "AP Secretariat offices, Vijayawada railway division, wholesale markets, and colleges are key buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 16.5062, "lng": 80.648 } }
     },
     "Guntur": {
@@ -445,7 +445,7 @@
         { "question": "How is bulk CTC delivered in Guntur?", "answer": "Delivery takes 4–5 days, with coverage to Vijayawada, Tenali, and surrounding delta areas." },
         { "question": "Which industries in Guntur consume bulk CTC tea?", "answer": "Tobacco processing yards, Guntur Medical College, APMC market canteens, and government offices are buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 16.3067, "lng": 80.4365 } }
     }
   },
@@ -463,7 +463,7 @@
         { "question": "How is bulk CTC delivered in Indore?", "answer": "Delivery takes 3–4 days, covering Ujjain, Dewas, and the Pithampur industrial zone." },
         { "question": "Which industries in Indore use bulk CTC tea?", "answer": "Pithampur auto zone, pharma companies, IIM Indore campus, and retail FMCG distributors are key buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 22.7196, "lng": 75.8577 } }
     },
     "Bhopal": {
@@ -479,7 +479,7 @@
         { "question": "How is bulk CTC delivered in Bhopal?", "answer": "Delivery takes 3–4 days, covering Raisen, Vidisha, and Sehore districts." },
         { "question": "Which sectors in Bhopal are major bulk CTC consumers?", "answer": "MP Secretariat offices, AIIMS Bhopal, BHEL Bhopal canteens, and HCL college campuses are buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 23.2599, "lng": 77.4126 } }
     },
     "Gwalior": {
@@ -495,7 +495,7 @@
         { "question": "How is bulk CTC delivered in Gwalior?", "answer": "Delivery takes 3–4 days, covering Morena, Bhind, and the Chambal region." },
         { "question": "Which industries in Gwalior need bulk CTC tea?", "answer": "CSD canteens, BHEL factory, Scindia School, and heritage hotel chains around the fort are key buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 26.2183, "lng": 78.1828 } }
     }
   },
@@ -513,7 +513,7 @@
         { "question": "How is bulk CTC delivered in Kochi?", "answer": "Delivery takes 5–6 days, covering Ernakulam, Thrissur, and Alappuzha districts." },
         { "question": "Which industries in Kochi use bulk CTC tea?", "answer": "Cochin Port Trust, Infopark IT campus, backwater resorts, and Amrita Hospital are major buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 9.9312, "lng": 76.2673 } }
     },
     "Thiruvananthapuram": {
@@ -529,7 +529,7 @@
         { "question": "How is bulk CTC delivered in Thiruvananthapuram?", "answer": "Delivery takes 5–6 days, covering Kollam, Nagercoil, and Southern Kerala." },
         { "question": "Which sectors in Thiruvananthapuram consume bulk CTC tea?", "answer": "Kerala secretariat, Technopark IT campus, KIMS Hospital, and tourism resorts are the main buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 8.5241, "lng": 76.9366 } }
     },
     "Kozhikode": {
@@ -545,7 +545,7 @@
         { "question": "How is bulk CTC delivered in Kozhikode?", "answer": "Delivery takes 5–6 days, extending to Malappuram, Kannur, and Palakkad districts." },
         { "question": "Which industries in Kozhikode use bulk CTC tea?", "answer": "Timber trading yards, MIMS Hospital, Farook and Calicut University campuses, and wholesale traders buy in bulk." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 11.2588, "lng": 75.7804 } }
     }
   },
@@ -563,7 +563,7 @@
         { "question": "How is bulk CTC delivered in New Delhi?", "answer": "Delivery takes 2–3 days, with easy coverage to Gurgaon, Noida, and Faridabad." },
         { "question": "Which sectors in Delhi are the biggest bulk CTC buyers?", "answer": "CPWD-managed government offices, Taj and ITC hotel chains, AIIMS Delhi, and ITO commercial complex." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 28.6139, "lng": 77.209 } }
     },
     "Gurgaon": {
@@ -579,7 +579,7 @@
         { "question": "How is bulk CTC delivered in Gurgaon?", "answer": "Delivery takes 2–3 days with coverage to Manesar, Sohna Road, and Cyber City." },
         { "question": "Which companies in Gurgaon buy bulk CTC tea?", "answer": "IT parks in Cyber Hub, Marriott and Hyatt hotel chains, DLF corporate parks, and catering contractors." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 28.4595, "lng": 77.0266 } }
     },
     "Noida": {
@@ -595,7 +595,7 @@
         { "question": "How is bulk CTC delivered in Noida?", "answer": "Delivery takes 2–3 days, covering Greater Noida, Film City, and Ghaziabad." },
         { "question": "Which media and IT companies in Noida buy bulk CTC tea?", "answer": "TV studios in Sector 16A, IT parks in Sectors 62–63, Jaypee Hospital, and manufacturing units buy regularly." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 28.5355, "lng": 77.391 } }
     }
   },
@@ -613,7 +613,7 @@
         { "question": "How is bulk CTC delivered in Gurgaon?", "answer": "Delivery takes 2–3 days, covering Manesar IMT, Rewari, and Faridabad." },
         { "question": "What makes Gurgaon's bulk CTC market unique?", "answer": "The density of multinational corporations means very high per-office tea consumption requiring regular bulk supply." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 28.4595, "lng": 77.0266 } }
     },
     "Faridabad": {
@@ -629,7 +629,7 @@
         { "question": "How is bulk CTC delivered in Faridabad?", "answer": "Delivery takes 2–3 days, covering Ballabhgarh, NIT, and Palwal industrial areas." },
         { "question": "Which industries in Faridabad buy bulk CTC tea?", "answer": "Auto component makers, JCB India plant, Escorts factory, and Faridabad Medical College are key buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 28.4089, "lng": 77.3178 } }
     },
     "Panipat": {
@@ -645,7 +645,7 @@
         { "question": "How is bulk CTC delivered in Panipat?", "answer": "Delivery takes 2–3 days, covering Karnal, Sonipat, and Jind districts." },
         { "question": "Why is Panipat a significant bulk CTC market?", "answer": "The city's massive textile recycling sector employs tens of thousands of workers, creating large daily tea demand." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 29.3909, "lng": 76.9635 } }
     }
   },
@@ -663,7 +663,7 @@
         { "question": "How is bulk CTC delivered in Patna?", "answer": "Delivery takes 2–3 days, with coverage to Hajipur and Vaishali across the Ganga plains." },
         { "question": "Which sectors in Patna drive bulk CTC demand?", "answer": "Bihar secretariat, PMCH hospital, coaching institute hostels, and FMCG wholesale traders are key buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 25.5941, "lng": 85.1376 } }
     },
     "Gaya": {
@@ -679,7 +679,7 @@
         { "question": "How is bulk CTC delivered in Gaya?", "answer": "Delivery takes 2–3 days, covering Bodh Gaya, Aurangabad, and Jehanabad." },
         { "question": "What is unique about Gaya's bulk tea market?", "answer": "International pilgrim visitors to Bodh Gaya create high-volume hospitality demand requiring reliable bulk supply." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 24.7955, "lng": 85.0002 } }
     },
     "Muzaffarpur": {
@@ -695,7 +695,7 @@
         { "question": "How is bulk CTC delivered in Muzaffarpur?", "answer": "Delivery takes 2–3 days from dispatch, with coverage to Sitamarhi and Sheohar districts." },
         { "question": "Which sectors in Muzaffarpur need bulk CTC tea?", "answer": "Wholesale fruit traders, SKMCH hospital, Brahmapur University, and government offices are key buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 26.1209, "lng": 85.3647 } }
     }
   },
@@ -713,7 +713,7 @@
         { "question": "How is bulk CTC delivered in Ludhiana?", "answer": "Delivery takes 3–4 days, covering Jalandhar, Moga, and the Ferozepur corridor." },
         { "question": "Which industries in Ludhiana buy bulk CTC tea?", "answer": "Hero Cycles, hosiery factories, CMC hospital, and PAU Ludhiana campus are major buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 30.901, "lng": 75.8573 } }
     },
     "Amritsar": {
@@ -729,7 +729,7 @@
         { "question": "How is bulk CTC delivered in Amritsar?", "answer": "Delivery takes 3–4 days, covering Tarn Taran, Gurdaspur, and Pathankot." },
         { "question": "What makes Amritsar's bulk CTC market distinctive?", "answer": "The Golden Temple's free community kitchen (langar) is one of India's single largest daily bulk CTC consumers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 31.634, "lng": 74.8723 } }
     },
     "Jalandhar": {
@@ -745,7 +745,7 @@
         { "question": "How is bulk CTC delivered in Jalandhar?", "answer": "Delivery takes 3–4 days, covering Kapurthala, Hoshiarpur, and the Doaba region." },
         { "question": "Which sectors in Jalandhar are bulk CTC tea buyers?", "answer": "Sports goods export factories, leather units, Lyallpur Khalsa College, and Joshi's Hospital are key buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 31.326, "lng": 75.5762 } }
     }
   },
@@ -763,7 +763,7 @@
         { "question": "How is bulk CTC delivered in Bhubaneswar?", "answer": "Delivery takes 2–3 days, covering Cuttack, Puri, and Khordha." },
         { "question": "Which sectors in Bhubaneswar consume bulk CTC tea?", "answer": "Odisha Secretariat, Infocity IT park, AIIMS Bhubaneswar, and KIIT University campus are major buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 20.2961, "lng": 85.8245 } }
     },
     "Cuttack": {
@@ -779,7 +779,7 @@
         { "question": "How is bulk CTC delivered in Cuttack?", "answer": "Delivery takes 2–3 days, covering Jajpur, Kendrapara, and surrounding districts." },
         { "question": "Which sectors in Cuttack buy bulk CTC tea?", "answer": "Orissa High Court, SCB Medical College, wholesale market traders, and Mahanadi Coalfields offices." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 20.4625, "lng": 85.883 } }
     },
     "Rourkela": {
@@ -795,7 +795,7 @@
         { "question": "How is bulk CTC delivered in Rourkela?", "answer": "Delivery takes 2–3 days, covering Sundargarh, Jharsuguda, and the western Odisha mining belt." },
         { "question": "Why is Rourkela a major bulk CTC market?", "answer": "SAIL RSP, NALCO, and Bhushan Steel create a steel township with massive daily institutional tea consumption." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 22.2604, "lng": 84.8536 } }
     }
   },
@@ -813,7 +813,7 @@
         { "question": "How quickly is bulk CTC available in Guwahati?", "answer": "Guwahati receives same-day or next-day supply from nearby Assam garden dispatch points." },
         { "question": "Why buy bulk CTC tea through Guwahati?", "answer": "Guwahati offers the freshest garden-direct Assam CTC supply with minimal transit, ideal for quality buyers." }
       ],
-      "supplyChain": { "source": "Assam (Local)", "moq": "25 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam (Local)", "moq": "25 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 26.1445, "lng": 91.7362 } }
     },
     "Dibrugarh": {
@@ -829,7 +829,7 @@
         { "question": "What makes Dibrugarh's CTC tea different?", "answer": "Dibrugarh-origin CTC is known for strong malty liquor and golden cup color — ideal for institutional chai." },
         { "question": "Who buys bulk CTC tea in Dibrugarh?", "answer": "ONGC Duliajan offices, Oil India Limited, Assam Medical College, and tea estate administration offices." }
       ],
-      "supplyChain": { "source": "Assam (Local — Upper Assam Gardens)", "moq": "25 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam (Local — Upper Assam Gardens)", "moq": "25 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 27.4728, "lng": 94.912 } }
     },
     "Silchar": {
@@ -845,7 +845,7 @@
         { "question": "How is bulk CTC distributed from Silchar?", "answer": "Silchar serves as a secondary distribution hub for Barak Valley tea across Cachar and Hailakandi." },
         { "question": "Which institutions in Silchar buy bulk CTC tea?", "answer": "Silchar Medical College, Cachar College, district government offices, and wholesale traders are buyers." }
       ],
-      "supplyChain": { "source": "Barak Valley, Assam", "moq": "25 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Barak Valley, Assam", "moq": "25 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 24.8333, "lng": 92.7789 } }
     }
   },
@@ -863,7 +863,7 @@
         { "question": "How is bulk CTC delivered in Ranchi?", "answer": "Delivery takes 2–3 days, covering Ramgarh, Hazaribagh, and Bokaro." },
         { "question": "Which industries in Ranchi buy bulk CTC tea?", "answer": "RINPAS hospital, HEC factory, CCL mining offices, and Ranchi University campus are major buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 23.3441, "lng": 85.3096 } }
     },
     "Jamshedpur": {
@@ -879,7 +879,7 @@
         { "question": "How is bulk CTC delivered in Jamshedpur?", "answer": "Delivery takes 2–3 days, covering Dhanbad, Seraikela, and East Singhbhum." },
         { "question": "What makes Jamshedpur a unique bulk CTC market?", "answer": "Tata township's planned industrial city has large institutional canteens serving thousands of workers daily." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 22.8046, "lng": 86.2029 } }
     },
     "Dhanbad": {
@@ -895,7 +895,7 @@
         { "question": "How is bulk CTC delivered in Dhanbad?", "answer": "Delivery takes 2–3 days, covering Bokaro, Sindri, and the coalfield belt." },
         { "question": "Why do coal mines create high bulk CTC demand?", "answer": "Mining operations run 24/7 with three shifts, requiring continuous large-scale canteen tea supply." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 23.7957, "lng": 86.4304 } }
     }
   },
@@ -913,7 +913,7 @@
         { "question": "How is bulk CTC delivered in Raipur?", "answer": "Delivery takes 3–4 days, covering Durg, Bhilai, and surrounding Chhattisgarh districts." },
         { "question": "Which industries in Raipur buy bulk CTC tea?", "answer": "Raipur steel cluster, AIIMS Raipur, NIT Raipur, Chhattisgarh secretariat, and power plant canteens." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 21.2514, "lng": 81.6296 } }
     },
     "Bhilai": {
@@ -929,7 +929,7 @@
         { "question": "How is bulk CTC delivered in Bhilai?", "answer": "Delivery takes 3–4 days, covering Durg, Rajnandgaon, and the Bhilai industrial zone." },
         { "question": "What makes Bhilai's bulk CTC market significant?", "answer": "BSP is one of India's largest steel plants; its township canteens require continuous, high-volume tea supply." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 21.1938, "lng": 81.3509 } }
     },
     "Bilaspur": {
@@ -945,7 +945,7 @@
         { "question": "How is bulk CTC delivered in Bilaspur?", "answer": "Delivery takes 3–4 days, covering Korba power city, Raigarh, and Mungeli." },
         { "question": "Which sectors in Bilaspur buy bulk CTC tea?", "answer": "Railways, SECL coal offices, CIMS hospital, and Bilaspur University are among the primary buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 22.0797, "lng": 82.1409 } }
     }
   },
@@ -963,7 +963,7 @@
         { "question": "How is bulk CTC delivered in Dehradun?", "answer": "Delivery takes 3–4 days, covering Haridwar, Rishikesh, and Mussoorie hill areas." },
         { "question": "Which institutions in Dehradun are major bulk CTC buyers?", "answer": "IMA Dehradun, ONGC HQ, Doon School, Wadia Institute, and Forest Research Institute campus." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 30.3165, "lng": 78.0322 } }
     },
     "Haridwar": {
@@ -979,7 +979,7 @@
         { "question": "How is bulk CTC delivered in Haridwar?", "answer": "Delivery takes 3–4 days, covering Rishikesh, Roorkee, and surrounding Garhwal areas." },
         { "question": "What makes Haridwar a significant bulk tea market?", "answer": "Patanjali's FMCG manufacturing, pilgrim ashrams, and Kumbh Mela events create unique high-volume demand." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 29.9457, "lng": 78.1642 } }
     },
     "Rudrapur": {
@@ -995,7 +995,7 @@
         { "question": "How is bulk CTC delivered in Rudrapur?", "answer": "Delivery takes 3–4 days, covering Kashipur, Haldwani, and Pantnagar agri-university zone." },
         { "question": "Which industries in Rudrapur buy bulk CTC tea?", "answer": "Tata Motors plant, Mahindra factory, Pantnagar GBPUAT campus, and SIDCUL unit canteens are major buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 28.9744, "lng": 79.4019 } }
     }
   },
@@ -1013,7 +1013,7 @@
         { "question": "How is bulk CTC delivered in Shimla?", "answer": "Delivery takes 4–5 days. Mountain terrain logistics are factored in; orders are dispatched to ensure timely arrival." },
         { "question": "Which sectors in Shimla consume bulk CTC tea?", "answer": "Himachal Pradesh Secretariat, Oberoi Cecil and other hotels, The Mall area restaurants, and Shimla schools." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 31.1048, "lng": 77.1734 } }
     },
     "Baddi": {
@@ -1029,7 +1029,7 @@
         { "question": "How is bulk CTC delivered in Baddi?", "answer": "Delivery takes 3–4 days, covering Solan, Nalagarh, and Parwanoo SEZ areas." },
         { "question": "Why is Baddi a top bulk CTC market in North India?", "answer": "Baddi is Asia's largest pharmaceutical hub — its factory workers require massive daily canteen tea supply." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 30.956, "lng": 76.7905 } }
     },
     "Solan": {
@@ -1045,7 +1045,7 @@
         { "question": "How is bulk CTC delivered in Solan?", "answer": "Delivery takes 4–5 days, covering Baddi industrial area, Parwanoo, and Shimla." },
         { "question": "Which sectors in Solan consume bulk CTC tea?", "answer": "Shoolini University campus, Mohan Meakin brewery, pharma companies, and district hospitals are buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 30.9045, "lng": 77.0967 } }
     }
   },
@@ -1063,7 +1063,7 @@
         { "question": "How is bulk CTC delivered in Panaji?", "answer": "Delivery takes 5–6 days, covering Mapusa, Ponda, and Old Goa heritage areas." },
         { "question": "Which buyers in Panaji need bulk CTC tea?", "answer": "Goa Secretariat offices, Goa Medical College, Taj Vivanta, and Casino Pride complex are key buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 15.4909, "lng": 73.8278 } }
     },
     "Margao": {
@@ -1079,7 +1079,7 @@
         { "question": "How is bulk CTC delivered in Margao?", "answer": "Delivery takes 5–6 days, covering Vasco da Gama, Ponda, and South Goa coastal resorts." },
         { "question": "Which sectors in Margao use bulk CTC tea?", "answer": "South Goa hotels, Hospicio Hospital, wholesale traders, and government schools are primary buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 15.2832, "lng": 73.9862 } }
     },
     "Vasco da Gama": {
@@ -1095,7 +1095,7 @@
         { "question": "How is bulk CTC delivered in Vasco da Gama?", "answer": "Delivery takes 5–6 days, covering Mormugao harbor area, Margao, and South Goa." },
         { "question": "Which industries in Vasco da Gama buy bulk CTC tea?", "answer": "Mormugao Port Trust, Sesa Iron Ore, Goa Shipyard Limited canteens, and ESI hospital are key buyers." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 15.396, "lng": 73.8116 } }
     }
   },
@@ -1113,7 +1113,7 @@
         { "question": "How is bulk CTC delivered in Srinagar?", "answer": "Delivery takes 5–6 days via road through Jammu and Jawahar Tunnel, covering Budgam and Ganderbal." },
         { "question": "How does bulk CTC coexist with kahwa in Srinagar?", "answer": "While kahwa is traditional, institutions like government offices, hospitals, and hotels prefer CTC for daily mass consumption." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 34.0837, "lng": 74.7973 } }
     },
     "Jammu": {
@@ -1129,7 +1129,7 @@
         { "question": "How is bulk CTC delivered in Jammu?", "answer": "Delivery takes 5–6 days, covering Kathua, Udhampur, and Samba districts." },
         { "question": "Which sectors in Jammu drive bulk CTC demand?", "answer": "Army canteens, J&K government offices, Vaishno Devi pilgrimage hotels, and GMC Jammu hospital." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 32.7266, "lng": 74.857 } }
     },
     "Anantnag": {
@@ -1145,7 +1145,7 @@
         { "question": "How is bulk CTC delivered in Anantnag?", "answer": "Delivery takes 5–6 days, covering Kulgam, Shopian, and Pulwama districts of South Kashmir." },
         { "question": "Which sectors in Anantnag consume bulk CTC tea?", "answer": "CRPF and BSF camps, district government offices, Anantnag medical facilities, and tourist guesthouses." }
       ],
-      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam, Dooars", "moq": "50 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 33.7309, "lng": 75.1521 } }
     }
   },
@@ -1163,7 +1163,7 @@
         { "question": "How is bulk CTC delivered in Agartala?", "answer": "Delivery takes 2–3 days, covering Sepahijala, Gomati, and Khowai districts." },
         { "question": "Why is Agartala strategic for NE bulk CTC supply?", "answer": "Agartala borders Bangladesh and has direct access to Tripura tea estates, making it a key NE distribution hub." }
       ],
-      "supplyChain": { "source": "Tripura, Assam", "moq": "25 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Tripura, Assam", "moq": "25 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 23.8315, "lng": 91.2868 } }
     },
     "Udaipur": {
@@ -1179,7 +1179,7 @@
         { "question": "How is bulk CTC delivered in Udaipur, Tripura?", "answer": "Delivery takes 2–3 days, with local Gomati district supply chains supporting rapid replenishment." },
         { "question": "What makes Udaipur (Tripura) unique for bulk tea buyers?", "answer": "Direct access to Gomati district tea estates means buyers get garden-fresh CTC at competitive rates." }
       ],
-      "supplyChain": { "source": "Tripura (Local), Assam", "moq": "25 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Tripura (Local), Assam", "moq": "25 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 23.5317, "lng": 91.4861 } }
     },
     "Dharmanagar": {
@@ -1195,7 +1195,7 @@
         { "question": "How is bulk CTC delivered in Dharmanagar?", "answer": "Delivery takes 2–3 days across North Tripura, Dhalai, and Unakoti districts." },
         { "question": "Which buyers in Dharmanagar purchase bulk CTC tea?", "answer": "Tea estate cooperatives, Dharmanagar government offices, local colleges, and district hospital network." }
       ],
-      "supplyChain": { "source": "North Tripura, Assam", "moq": "25 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "North Tripura, Assam", "moq": "25 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 24.37, "lng": 92.17 } }
     }
   },
@@ -1213,7 +1213,7 @@
         { "question": "How is bulk CTC delivered in Shillong?", "answer": "Delivery takes 2–3 days, with Guwahati as the nearby dispatch hub for Shillong and East Khasi Hills." },
         { "question": "Which sectors in Shillong buy bulk CTC tea?", "answer": "Meghalaya Secretariat, NEHU campus, NEIGRIHMS hospital, and Pine Ridge/Tripura Castle hotels." }
       ],
-      "supplyChain": { "source": "Assam (via Guwahati)", "moq": "25 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam (via Guwahati)", "moq": "25 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 25.5788, "lng": 91.8933 } }
     },
     "Tura": {
@@ -1229,7 +1229,7 @@
         { "question": "How is bulk CTC delivered in Tura?", "answer": "Delivery takes 2–3 days from Assam dispatch, covering West and East Garo Hills." },
         { "question": "Which institutions in Tura buy bulk CTC tea?", "answer": "Garo Hills DC office, TURA Government College, Civil Hospital Tura, and local wholesale traders." }
       ],
-      "supplyChain": { "source": "Assam (via Guwahati)", "moq": "25 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam (via Guwahati)", "moq": "25 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 25.5197, "lng": 90.2167 } }
     },
     "Jowai": {
@@ -1245,7 +1245,7 @@
         { "question": "How is bulk CTC delivered in Jowai?", "answer": "Delivery takes 2–3 days via Guwahati dispatch, covering West and East Jaintia Hills." },
         { "question": "Which sectors in Jowai consume bulk CTC tea?", "answer": "Coal mining offices, limestone quarry workers, West Jaintia Hills DC office, and Jowai hospital." }
       ],
-      "supplyChain": { "source": "Assam (via Guwahati)", "moq": "25 kg", "packagingSizes": ["25 kg", "50 kg", "100 kg"] },
+      "supplyChain": { "source": "Assam (via Guwahati)", "moq": "25 kg", "packagingSizes": ["25 kg", "50 kg"] },
       "localContext": { "coordinates": { "lat": 25.45, "lng": 92.2 } }
     }
   }
