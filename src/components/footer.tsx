@@ -5,6 +5,7 @@ export default function Footer() {
     { href: "/available-locations", label: "Locations" },
     { href: "/about", label: "About" },
     { href: "/contact", label: "Contact" },
+    { href: "/our-websites", label: "Our Websites" },
     { href: "/sitemap.xml", label: "Sitemap" },
     { href: "/privacy", label: "Privacy" },
     { href: "/terms", label: "Terms" },
@@ -35,11 +36,21 @@ export default function Footer() {
 
         <div className="mt-8 pt-6 flex flex-col md:flex-row md:items-center md:justify-between gap-3 text-xs text-neutral-400">
           <p>© {new Date().getFullYear()} BulkCTC. All rights reserved.</p>
-          <p>
-            FSSAI: <span className="whitespace-nowrap">23326008000195</span>
-            {" · "}
-            IEC: <span className="whitespace-nowrap">AAMCG4985H</span>
-          </p>
+          <div className="flex flex-wrap items-center gap-3">
+            <p>
+              FSSAI: <span className="whitespace-nowrap">23326008000195</span>
+              {" · "}
+              IEC: <span className="whitespace-nowrap">AAMCG4985H</span>
+            </p>
+            <a
+              href="https://graycup.org/"
+              target="_blank"
+              rel="noopener"
+              className="text-neutral-400 hover:text-neutral-600 transition-colors"
+            >
+              Gray Cup
+            </a>
+          </div>
         </div>
       </div>
     </footer>

@@ -33,11 +33,28 @@ export function Navbar() {
                   {label}
                 </Link>
               ))}
+              <a
+                href="https://graycup.org/"
+                target="_blank"
+                rel="noopener"
+                className="px-3 py-2 text-neutral-600 hover:text-neutral-900 transition-colors"
+              >
+                Company Website
+              </a>
             </nav>
           </div>
 
           {/* RIGHT */}
           <div className="flex items-center gap-3">
+            <a
+              href="https://graycup.org/"
+              target="_blank"
+              rel="noopener"
+              className="hidden md:inline-flex items-center gap-1.5 text-xs font-medium text-neutral-500 border border-neutral-200 rounded-full px-3 py-1.5 hover:border-neutral-400 hover:text-neutral-800 transition-colors"
+            >
+              <span className="w-1.5 h-1.5 rounded-full bg-green-500 inline-block" />
+              Powered by Gray Cup
+            </a>
             <WhatsAppQuoteBtn
               message={WHATSAPP_DEFAULT_MESSAGE}
               className="hidden md:inline-flex px-5 py-2"
@@ -92,13 +109,30 @@ export function Navbar() {
                 {label}
               </Link>
             ))}
+            <a
+              href="https://graycup.org/"
+              target="_blank"
+              rel="noopener"
+              className="px-2 py-3 text-neutral-700 hover:text-neutral-900 transition-colors"
+            >
+              Company Website
+            </a>
           </nav>
 
-          <div className="mt-6">
+          <div className="mt-6 flex flex-col gap-3">
             <WhatsAppQuoteBtn
               message={WHATSAPP_DEFAULT_MESSAGE}
               className="w-full justify-center px-5 py-2.5"
             />
+            <a
+              href="https://graycup.org/"
+              target="_blank"
+              rel="noopener"
+              className="inline-flex items-center justify-center gap-1.5 text-xs font-medium text-neutral-500 border border-neutral-200 rounded-full px-3 py-1.5 hover:border-neutral-400 hover:text-neutral-800 transition-colors"
+            >
+              <span className="w-1.5 h-1.5 rounded-full bg-green-500 inline-block" />
+              Powered by Gray Cup
+            </a>
           </div>
         </aside>
       </div>
