@@ -113,7 +113,18 @@ export default function RootLayout({
           fontPublicSans.variable,
         )}
       >
-        <Analytics />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-XPEBV7XMDM"
+          strategy="afterInteractive"
+        />
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-XPEBV7XMDM');
+          `}
+        </Script>
         <RootProviders>{children}</RootProviders>
         {/* <UserJotWidget /> */}
         <WhatsappWidget />
