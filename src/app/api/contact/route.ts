@@ -1,23 +1,27 @@
 import { NextRequest, NextResponse } from "next/server";
-import { headers } from "next/headers";
 
 // Rate limiting configuration
 const RATE_LIMIT_WINDOW = 60 * 1000; // 1 minute
 const MAX_REQUESTS_PER_WINDOW = 5; // 5 requests per minute per IP
+// Hard cap: prevents unbounded growth under high unique-IP traffic.
+// At ~100 bytes per entry this is ~100 KB max.
+const MAX_RATE_LIMIT_ENTRIES = 1000;
 const RATE_LIMIT_STORAGE = new Map<
   string,
   { count: number; resetTime: number }
 >();
 
-// Clean up old entries periodically
-setInterval(() => {
+// Lazy cleanup: called on every request instead of a persistent setInterval.
+// This avoids an immortal timer that blocks GC and duplicates across hot-reloads.
+function purgeExpiredRateLimitEntries(): void {
+  if (RATE_LIMIT_STORAGE.size === 0) return;
   const now = Date.now();
   for (const [ip, data] of RATE_LIMIT_STORAGE.entries()) {
     if (now > data.resetTime) {
       RATE_LIMIT_STORAGE.delete(ip);
     }
   }
-}, RATE_LIMIT_WINDOW);
+}
 
 interface ContactFormData {
   name: string;
@@ -41,11 +45,20 @@ function getClientIP(request: NextRequest): string {
 }
 
 function checkRateLimit(ip: string): { allowed: boolean; resetTime?: number } {
+  // Purge expired entries on every request (lazy cleanup — no persistent timer).
+  purgeExpiredRateLimitEntries();
+
   const now = Date.now();
   const clientData = RATE_LIMIT_STORAGE.get(ip);
 
   if (!clientData || now > clientData.resetTime) {
-    // First request or window expired
+    // Enforce hard cap: if the Map is full after cleanup, reject new entries
+    // rather than growing without bound.
+    if (!clientData && RATE_LIMIT_STORAGE.size >= MAX_RATE_LIMIT_ENTRIES) {
+      // Treat as rate-limited to protect memory; real users retry shortly.
+      return { allowed: false, resetTime: now + RATE_LIMIT_WINDOW };
+    }
+    // First request or window expired — start a fresh window.
     RATE_LIMIT_STORAGE.set(ip, {
       count: 1,
       resetTime: now + RATE_LIMIT_WINDOW,
