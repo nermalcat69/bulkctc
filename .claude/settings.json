@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"const d=require\\('./src/content/cities.json'\\); const states=Object.keys\\(d\\); const cities=states.flatMap\\(s=>Object.keys\\(d[s]\\)\\); console.log\\('states:', states.length, 'cities:', cities.length, 'total pages:', states.length + cities.length\\)\")",
+      "Bash(node -e \"const d=require\\('/Users/graycup/Documents/GitHub/bulkctc/src/content/cities.json'\\); const states=Object.keys\\(d\\); const cities=states.flatMap\\(s=>Object.keys\\(d[s]\\)\\); console.log\\('states:', states.length, 'cities:', cities.length, 'total pages:', states.length + cities.length\\)\")",
+      "Bash(node scripts/generate-static-pages.mjs)"
+    ]
+  }
+}

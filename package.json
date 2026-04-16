@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev --port 6969",
+    "generate": "node scripts/generate-static-pages.mjs",
+    "prebuild": "node scripts/generate-static-pages.mjs",
     "build": "next build",
     "postbuild": "next-sitemap",
     "start": "next start",
